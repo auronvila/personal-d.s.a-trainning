@@ -34,4 +34,8 @@ export class Stack<T> {
   peek() {
     return this.head?.value
   }
+
+  size() {
+    return this.length
+  }
 }

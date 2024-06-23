@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'tsc && node dist/index.js'"
+    "start": "node dist/stack/test.js",
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "Auron Vila",
@@ -14,5 +14,8 @@
   "devDependencies": {
     "nodemon": "^3.1.4",
     "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.8"
   }
 }
